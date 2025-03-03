@@ -44,12 +44,16 @@ Step 9: Published the report to Power BI Service for easy accessibility and shar
 Total sales: $1.20M
 
 Card visual used to represent this total sales
+
+
 ![Image](https://github.com/user-attachments/assets/d6dc933e-c31d-4409-a560-eed20d52c284)
 
 
 Average sales: $141
 
 Card visual used to represent this average sales
+
+
 ![Image](https://github.com/user-attachments/assets/80754cf0-bbe9-47c2-86d4-9b5d0312910a)
 
 
@@ -62,6 +66,8 @@ Highest sales are from Supermarket type 1.
     Household
 
 Fat wise sales distribution: Highest sales for "Low fat products".
+
+
 ![Image](https://github.com/user-attachments/assets/3bfac63a-b193-43a3-a457-e63e8b7f28b4)
 
 
