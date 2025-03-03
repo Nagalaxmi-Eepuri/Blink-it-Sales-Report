@@ -1,6 +1,8 @@
 # Blink it Sales Analysis
 
-Report Link: https://app.powerbi.com/groups/me/reports/6e0bead9-4254-4609-b9e3-d8c8555a360d/b8e4b5a7ee8ba792606c?experience=power-bi 
+Dataset: - <a href="https://docs.google.com/spreadsheets/d/1tdF_beuexr4n46cuZY8P-b8JCCYN-SNZ/edit?gid=1156682977#gid=1156682977">Dataset</a>
+
+Report Link: - <a href="https://app.powerbi.com/groups/me/reports/6e0bead9-4254-4609-b9e3-d8c8555a360d/b8e4b5a7ee8ba792606c?experience=power-bi">Report</a>
 
 ## Problem Statement
 
@@ -43,10 +45,13 @@ Total sales: $1.20M
 
 Card visual used to represent this total sales
 ![Image](https://github.com/user-attachments/assets/d6dc933e-c31d-4409-a560-eed20d52c284)
-	Average sales: $141
+
+
+Average sales: $141
 
 Card visual used to represent this average sales
 ![Image](https://github.com/user-attachments/assets/80754cf0-bbe9-47c2-86d4-9b5d0312910a)
+
 
 Highest sale's revenue by item establishment year: $2,04,522 in 2018.
 Highest sales are from Supermarket type 1.
@@ -58,6 +63,7 @@ Highest sales are from Supermarket type 1.
 
 Fat wise sales distribution: Highest sales for "Low fat products".
 ![Image](https://github.com/user-attachments/assets/3bfac63a-b193-43a3-a457-e63e8b7f28b4)
+
 
 #### 3. Regional Sales Trends
 
