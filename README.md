@@ -1,70 +1,80 @@
-# Online-Delivery-Application
-**Project Overview**
-The Online Delivery Application Project is a platform designed to streamline the process of ordering and delivering products online. It provides users with a seamless experience to browse products, place orders, and track deliveries in real time. This project is built with modern web technologies and includes a robust backend for handling user authentication, order management, and delivery logistics.
+# Blink it Sales Analysis
 
-**Key Features**
-- User-friendly interface for browsing and ordering products.
-- Secure user authentication and account management.
-- Real-time order tracking and notifications.
-- Admin dashboard for managing products, orders, and deliveries.
-- Integration with third-party payment gateways.
+Report Link: https://app.powerbi.com/groups/me/reports/6e0bead9-4254-4609-b9e3-d8c8555a360d/b8e4b5a7ee8ba792606c?experience=power-bi 
 
+## Problem Statement
 
-**Installation and Setup Instructions**
+This dashboard provides insights into Blinkit's sales performance, helping stakeholders understand key sales trends, product demand, and revenue generation. The report aids in identifying high-performing products, peak sales periods, and customer purchasing patterns. These insights allow for strategic decision-making to optimize inventory, marketing campaigns, and operational efficiency.
 
-**Prerequisites**
-Before setting up the project, ensure you have the following installed:
-- Python 
-- MySQL 
-- Frameworks (Flask or Django) 
-- Git
+### Steps followed:
 
-**Steps**
-1. Clone the Repository
-2. Install Dependencies
-3. Set Up Environment Variables
-4. Start the Development Server
-   
-   
-**Usage Instructions**
-**For Users**
-1. Sign Up or Log In
-   - Create an account or log in using your credentials.
+Step 1: Loaded sales data into Power BI Desktop. The dataset is a CSV file.
 
-2. Browse Products
-   - Explore various categories and products.
-
-3. Place an Order
-   - Add items to your cart and proceed to checkout.
-   - Select a delivery address and payment method.
-
-4. Track Your Order
-   - Use the order tracking feature to view real-time updates on your delivery.
-
-**For Admins**
-1. Log In to the Admin Dashboard
-   - Use your admin credentials to access the management panel.
-
-2. Manage Products
-   - Add, update, or remove products from the catalog.
-
-3. Monitor Orders
-   - View and update order statuses.
-
-4. Manage Users
-   - View and manage user accounts.
+Step 2: Opened Power Query Editor and enabled "Column Distribution," "Column Quality," and "Column Profile" to assess data quality.
 
 
-**Testing Procedures**
+Step 3: Checked for missing values and inconsistencies, performed necessary data cleaning and transformations.
 
-1. Unit Testing
-Run unit tests to ensure individual components function as expected.
+Step 4: Created calculated columns for total sale, average sales, number of items and average rating using DAX.
 
-2. Integration Testing
-Test the interactions between different components
+Step 5: Applied necessary data filters to segment sales by product category, outlet location and fat content.
 
-3. End-to-End Testing
-Simulate user behavior to verify the entire application workflow.
+Step 6: Added key performance indicators (KPIs) such as total sales, average sales, average rating and number of items.
 
-4. Generating Test Reports
-After running tests, generate a detailed test report.
+Step 7: Created interactive visuals including:
+
+    Sales performance by fat content using Donut chart.
+	Category-wise sales via stacked bar chart.
+	Outlet type wise sales using matrix table.
+	Sales by outlet establishment year with line chart.
+	Sales performance by out location type using funnel chart.
+    Card visulas for KPIs.
+    Slicers to filter the data.
+
+Step 8: Added slicers for filtering data by Outlet location type, item type and outlet size.
+
+Step 9: Published the report to Power BI Service for easy accessibility and sharing.
+
+### Insights
+
+#### 1. Sales Performance Overview
+
+Total sales: $1.20M
+
+Card visual used to represent this total sales
+![Image](https://github.com/user-attachments/assets/d6dc933e-c31d-4409-a560-eed20d52c284)
+	Average sales: $141
+
+Card visual used to represent this average sales
+![Image](https://github.com/user-attachments/assets/80754cf0-bbe9-47c2-86d4-9b5d0312910a)
+
+Highest sale's revenue by item establishment year: $2,04,522 in 2018.
+Highest sales are from Supermarket type 1.
+#### 2. Product PerformanceTop 3 best-selling products:
+	
+    Fruits and Vegetables
+    Snack foods
+    Household
+
+Fat wise sales distribution: Highest sales for "Low fat products".
+![Image](https://github.com/user-attachments/assets/3bfac63a-b193-43a3-a457-e63e8b7f28b4)
+
+#### 3. Regional Sales Trends
+
+	Highest sales in: Tier 3 locations 4,72,133
+	Lowest sales in: Tier 1 locations
+![Image](https://github.com/user-attachments/assets/39ae7a55-e81d-433e-b33b-71a00e4dbc97)
+
+### Snapshot of Dashboard (Power BI Services):
+![Image](https://github.com/user-attachments/assets/7ca4bd19-bea6-442b-960b-f443b2d639bc)
+
+### Conclusion:
+This Blinkit Sales Report provides valuable insights into sales trends, product attributes, outlet performance,The key takeaways include:
+#### Outlet Factors: 
+Larger and older outlets in urban areas perform better, suggesting a focus on expansion strategies in high-demand areas.
+#### Product Optimization: 
+Low-fat items and grocery products drive sales, emphasizing the need for strategic inventory management.
+
+By leveraging these insights, Blinkit can refine its inventory strategies, optimize outlet performance, and enhance customer satisfaction, ultimately driving higher revenue and sustainable business growth.
+
+
